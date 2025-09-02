@@ -19,7 +19,8 @@ namespace prySilvaMenendezAgendaContactos
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            
+            frmAgregar frmAgregar = new frmAgregar();
+            frmAgregar.ShowDialog();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -29,6 +30,11 @@ namespace prySilvaMenendezAgendaContactos
         }
 
         private void lblBienvenida_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
         {
 
         }

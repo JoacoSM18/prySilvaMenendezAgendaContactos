@@ -75,8 +75,14 @@
     <EmbeddedResource Include="frmAgendaContactos.resx">
       <DependentUpon>frmAgendaContactos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregar.resx">
+      <DependentUpon>frmAgregar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBorrar.resx">
       <DependentUpon>frmBorrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditar.resx">
+      <DependentUpon>frmEditar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

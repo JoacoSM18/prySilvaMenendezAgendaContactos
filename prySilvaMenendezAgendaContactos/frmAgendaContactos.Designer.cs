@@ -56,6 +56,7 @@
             this.btnEditar.TabIndex = 1;
             this.btnEditar.Text = "Editar Contacto";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
@@ -73,7 +74,7 @@
             // 
             this.lblBienvenida.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lblBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenida.Location = new System.Drawing.Point(43, 9);
+            this.lblBienvenida.Location = new System.Drawing.Point(43, 32);
             this.lblBienvenida.Name = "lblBienvenida";
             this.lblBienvenida.Size = new System.Drawing.Size(452, 76);
             this.lblBienvenida.TabIndex = 3;
@@ -85,11 +86,12 @@
             // 
             this.lblAccion.AutoSize = true;
             this.lblAccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccion.Location = new System.Drawing.Point(68, 114);
+            this.lblAccion.Location = new System.Drawing.Point(72, 139);
             this.lblAccion.Name = "lblAccion";
             this.lblAccion.Size = new System.Drawing.Size(406, 30);
             this.lblAccion.TabIndex = 4;
             this.lblAccion.Text = "Haga Click en lo que Desea Hacer";
+            this.lblAccion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmAgendaContactos
             // 
