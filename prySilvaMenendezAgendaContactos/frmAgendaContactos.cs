@@ -21,5 +21,16 @@ namespace prySilvaMenendezAgendaContactos
         {
             
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            frmBorrar borrarFormulario = new frmBorrar();
+            borrarFormulario.ShowDialog();
+        }
+
+        private void lblBienvenida_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

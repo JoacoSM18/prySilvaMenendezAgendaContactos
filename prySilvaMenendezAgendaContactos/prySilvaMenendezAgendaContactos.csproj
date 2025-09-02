@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditar.Designer.cs">
+      <DependentUpon>frmEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregar.Designer.cs">
+      <DependentUpon>frmAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBorrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBorrar.Designer.cs">
+      <DependentUpon>frmBorrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAgendaContactos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAgendaContactos.resx">
       <DependentUpon>frmAgendaContactos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBorrar.resx">
+      <DependentUpon>frmBorrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

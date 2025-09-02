@@ -39,52 +39,53 @@
             // btnAgregar
             // 
             this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregar.Location = new System.Drawing.Point(54, 207);
+            this.btnAgregar.Location = new System.Drawing.Point(49, 207);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(213, 39);
+            this.btnAgregar.Size = new System.Drawing.Size(114, 75);
             this.btnAgregar.TabIndex = 0;
-            this.btnAgregar.Text = "Agregar Un Contacto";
+            this.btnAgregar.Text = "Agregar Contacto";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnEditar
             // 
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.Location = new System.Drawing.Point(305, 207);
+            this.btnEditar.Location = new System.Drawing.Point(213, 207);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(179, 39);
+            this.btnEditar.Size = new System.Drawing.Size(114, 75);
             this.btnEditar.TabIndex = 1;
-            this.btnEditar.Text = "Editar Un Contacto";
+            this.btnEditar.Text = "Editar Contacto";
             this.btnEditar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
             this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.ForeColor = System.Drawing.Color.Red;
-            this.btnEliminar.Location = new System.Drawing.Point(529, 207);
+            this.btnEliminar.Location = new System.Drawing.Point(381, 207);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(195, 39);
+            this.btnEliminar.Size = new System.Drawing.Size(114, 75);
             this.btnEliminar.TabIndex = 2;
-            this.btnEliminar.Text = "Eliminar Un Contacto";
+            this.btnEliminar.Text = "Eliminar Contacto";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // lblBienvenida
             // 
-            this.lblBienvenida.AutoSize = true;
             this.lblBienvenida.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lblBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenida.Location = new System.Drawing.Point(12, 25);
+            this.lblBienvenida.Location = new System.Drawing.Point(43, 9);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(762, 36);
+            this.lblBienvenida.Size = new System.Drawing.Size(452, 76);
             this.lblBienvenida.TabIndex = 3;
-            this.lblBienvenida.Text = "Bienvenido a tu Agenda de Contactos Personalizada";
+            this.lblBienvenida.Text = "Bienvenido a Su Agenda de Contactos Personalizada";
             this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBienvenida.Click += new System.EventHandler(this.lblBienvenida_Click);
             // 
             // lblAccion
             // 
             this.lblAccion.AutoSize = true;
             this.lblAccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccion.Location = new System.Drawing.Point(181, 85);
+            this.lblAccion.Location = new System.Drawing.Point(68, 114);
             this.lblAccion.Name = "lblAccion";
             this.lblAccion.Size = new System.Drawing.Size(406, 30);
             this.lblAccion.TabIndex = 4;
@@ -94,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 357);
+            this.ClientSize = new System.Drawing.Size(531, 313);
             this.Controls.Add(this.lblAccion);
             this.Controls.Add(this.lblBienvenida);
             this.Controls.Add(this.btnEliminar);
