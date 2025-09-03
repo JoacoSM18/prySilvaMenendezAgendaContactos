@@ -84,7 +84,6 @@
             // 
             // lblAccion
             // 
-            this.lblAccion.AutoSize = true;
             this.lblAccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAccion.Location = new System.Drawing.Point(72, 139);
             this.lblAccion.Name = "lblAccion";
@@ -109,7 +108,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agenda de Contactos";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

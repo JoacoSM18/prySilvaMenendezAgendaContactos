@@ -36,7 +36,8 @@ namespace prySilvaMenendezAgendaContactos
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-
+            frmEditar editarFormulario = new frmEditar();
+            editarFormulario.ShowDialog();
         }
     }
 }
