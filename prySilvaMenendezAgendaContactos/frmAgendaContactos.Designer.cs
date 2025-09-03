@@ -39,9 +39,9 @@
             // btnAgregar
             // 
             this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregar.Location = new System.Drawing.Point(49, 207);
+            this.btnAgregar.Location = new System.Drawing.Point(49, 219);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(114, 75);
+            this.btnAgregar.Size = new System.Drawing.Size(117, 58);
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Agregar Contacto";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -50,9 +50,9 @@
             // btnEditar
             // 
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.Location = new System.Drawing.Point(213, 207);
+            this.btnEditar.Location = new System.Drawing.Point(215, 219);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(114, 75);
+            this.btnEditar.Size = new System.Drawing.Size(117, 58);
             this.btnEditar.TabIndex = 1;
             this.btnEditar.Text = "Editar Contacto";
             this.btnEditar.UseVisualStyleBackColor = true;
@@ -62,9 +62,9 @@
             // 
             this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.ForeColor = System.Drawing.Color.Red;
-            this.btnEliminar.Location = new System.Drawing.Point(381, 207);
+            this.btnEliminar.Location = new System.Drawing.Point(378, 219);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(114, 75);
+            this.btnEliminar.Size = new System.Drawing.Size(117, 58);
             this.btnEliminar.TabIndex = 2;
             this.btnEliminar.Text = "Eliminar Contacto";
             this.btnEliminar.UseVisualStyleBackColor = true;

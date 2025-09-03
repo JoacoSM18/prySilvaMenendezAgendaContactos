@@ -16,5 +16,15 @@ namespace prySilvaMenendezAgendaContactos
         {
             InitializeComponent();
         }
+
+        private void lblNumero_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblOpcion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
